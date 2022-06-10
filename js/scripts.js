@@ -1,9 +1,24 @@
-function beepboop(input) {
+function beepBoop(countTo) {
    let newArray =[];
-   let total = 0;
-   for (let i = 0; i <= input; i++) {
-     newArray.push(total++);
+   
+   for (let i = 0; i <= countTo; i++) {
+     
+    if (i.toString().includes(3)) {
+      newArray.push("Won't you be my neighbor?")
+    } else if ()
+
+
+
+
+
+    } else { 
+    newArray.push(i);
+    } 
+     
+     
    }
-   console.log(newArray);
-}
-beepboop('5'); 
+   return newArray;
+
+} 
+const data=beepBoop(5);
+console.log('--', data)
