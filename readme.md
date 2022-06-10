@@ -14,7 +14,7 @@ Expected Output: [0, 1, "Boop", 3, 4, 5]
 
 Test: "It should return "won't you be my neighbor" if a 1 is included"
 Code: beepBoop(5);
-Expected Output: [0, 1, "Beep", 3, 4, 5]
+Expected Output: [0, "Beep", 2, 3, 4, 5]
 
 
 
