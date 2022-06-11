@@ -9,11 +9,10 @@ function beepBoop(countTo) {
       newArray.push("Boop")
     } else if (i.toString().includes(1)) {
       newArray.push("Beep")
-    } else { 
-    newArray.push(i);
+    } else { newArray.push(i);
     }; 
    }
    return newArray;
 } 
-const data=beepBoop(5);
-console.log('--', data)
+beepBoop(5);
+
