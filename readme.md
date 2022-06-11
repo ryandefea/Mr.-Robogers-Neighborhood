@@ -12,14 +12,16 @@ Test: "It should return "Boop" if a 2 is included"
 Code: beepBoop(5);
 Expected Output: [0, 1, "Boop", 3, 4, 5]
 
-Test: "It should return "won't you be my neighbor" if a 1 is included"
+Test: "It should return "Beep" if a 1 is included"
 Code: beepBoop(5);
 Expected Output: [0, "Beep", 2, 3, 4, 5]
 
 # Mr. Roboger's Neighborhood
+
 By Ryan DeFea
 Site that takes a number from the user and returns the user inputted number with substitutions.
 # Technologies Used
+
 HTML
 CSS
 Bootstrap
